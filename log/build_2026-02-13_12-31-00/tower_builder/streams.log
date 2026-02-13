@@ -1,0 +1,65 @@
+[0.376s] Invoking command in '/home/JunPyo/cube_tower/src/tower_builder': PYTHONPATH=/home/JunPyo/cube_tower/build/tower_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tower_builder build --build-base /home/JunPyo/cube_tower/build/tower_builder/build install --record /home/JunPyo/cube_tower/build/tower_builder/install.log --single-version-externally-managed install_data
+[0.490s] running egg_info
+[0.490s] creating ../../build/tower_builder/tower_builder.egg-info
+[0.490s] writing ../../build/tower_builder/tower_builder.egg-info/PKG-INFO
+[0.491s] writing dependency_links to ../../build/tower_builder/tower_builder.egg-info/dependency_links.txt
+[0.491s] writing entry points to ../../build/tower_builder/tower_builder.egg-info/entry_points.txt
+[0.491s] writing requirements to ../../build/tower_builder/tower_builder.egg-info/requires.txt
+[0.491s] writing top-level names to ../../build/tower_builder/tower_builder.egg-info/top_level.txt
+[0.491s] writing manifest file '../../build/tower_builder/tower_builder.egg-info/SOURCES.txt'
+[0.491s] reading manifest file '../../build/tower_builder/tower_builder.egg-info/SOURCES.txt'
+[0.492s] writing manifest file '../../build/tower_builder/tower_builder.egg-info/SOURCES.txt'
+[0.492s] running build
+[0.492s] running build_py
+[0.492s] creating /home/JunPyo/cube_tower/build/tower_builder/build
+[0.492s] creating /home/JunPyo/cube_tower/build/tower_builder/build/lib
+[0.492s] creating /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/main.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/v9.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/main_mod_hub.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/ui_node.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/vtest(데이터).py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/vtest(데이터요약).py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/gripper_drl_controller.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/__init__.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/junpyo.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/camera.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] copying tower_builder/camera_try.py -> /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder
+[0.492s] running install
+[0.493s] running install_lib
+[0.493s] creating /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/main.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/v9.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/main_mod_hub.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/ui_node.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/vtest(데이터).py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/vtest(데이터요약).py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/gripper_drl_controller.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/__init__.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/junpyo.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/camera.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] copying /home/JunPyo/cube_tower/build/tower_builder/build/lib/tower_builder/camera_try.py -> /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder
+[0.493s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/main.py to main.cpython-310.pyc
+[0.495s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/v9.py to v9.cpython-310.pyc
+[0.498s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/main_mod_hub.py to main_mod_hub.cpython-310.pyc
+[0.499s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/ui_node.py to ui_node.cpython-310.pyc
+[0.499s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/vtest(데이터).py to vtest(데이터).cpython-310.pyc
+[0.500s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/vtest(데이터요약).py to vtest(데이터요약).cpython-310.pyc
+[0.500s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/gripper_drl_controller.py to gripper_drl_controller.cpython-310.pyc
+[0.500s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/__init__.py to __init__.cpython-310.pyc
+[0.500s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/junpyo.py to junpyo.cpython-310.pyc
+[0.501s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/camera.py to camera.cpython-310.pyc
+[0.503s] byte-compiling /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder/camera_try.py to camera_try.cpython-310.pyc
+[0.504s] running install_data
+[0.504s] creating /home/JunPyo/cube_tower/install/tower_builder/share/ament_index
+[0.504s] creating /home/JunPyo/cube_tower/install/tower_builder/share/ament_index/resource_index
+[0.504s] creating /home/JunPyo/cube_tower/install/tower_builder/share/ament_index/resource_index/packages
+[0.504s] copying resource/tower_builder -> /home/JunPyo/cube_tower/install/tower_builder/share/ament_index/resource_index/packages
+[0.504s] copying package.xml -> /home/JunPyo/cube_tower/install/tower_builder/share/tower_builder
+[0.504s] running install_egg_info
+[0.505s] Copying ../../build/tower_builder/tower_builder.egg-info to /home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages/tower_builder-0.0.0-py3.10.egg-info
+[0.505s] running install_scripts
+[0.515s] Installing hub script to /home/JunPyo/cube_tower/install/tower_builder/lib/tower_builder
+[0.515s] Installing stb script to /home/JunPyo/cube_tower/install/tower_builder/lib/tower_builder
+[0.515s] writing list of installed files to '/home/JunPyo/cube_tower/build/tower_builder/install.log'
+[0.528s] Invoked command in '/home/JunPyo/cube_tower/src/tower_builder' returned '0': PYTHONPATH=/home/JunPyo/cube_tower/build/tower_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/JunPyo/cube_tower/install/tower_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tower_builder build --build-base /home/JunPyo/cube_tower/build/tower_builder/build install --record /home/JunPyo/cube_tower/build/tower_builder/install.log --single-version-externally-managed install_data

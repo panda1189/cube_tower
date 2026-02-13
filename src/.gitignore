@@ -1,0 +1,6 @@
+doosan-robot2
+__pycache__
+.vscode
+*.pyc
+main_mod.py
+main_mod_hub.py
